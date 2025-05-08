@@ -5,6 +5,4 @@ urlpatterns = [
     path('admin/', admin.site.urls), 
     path('powerir/',views.power,name="powerir"),
     path('',views.power,name="powerir")
-
-
-]
+    ]
